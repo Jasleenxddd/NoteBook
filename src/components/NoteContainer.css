@@ -1,0 +1,19 @@
+.note_container{
+    height: 100%;
+}
+.note_container h2{
+    margin-bottom: 40px;
+    font-family: 'Sedan SC';
+    font-size: 50px;
+    color: #000000;
+    text-decoration: underline;
+    
+
+}
+.note_container_notes{
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow-y: scroll;
+}
